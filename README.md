@@ -8,9 +8,7 @@
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/f450ebb7-074e-4c66-a112-962b2eba6dd3) and start prompting.
+Simply visit the [Lovable Project](https://preview--eduquizzler-hub.lovable.app/).
 
 Changes made via Lovable will be committed automatically to this repo.
 
