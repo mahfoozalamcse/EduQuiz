@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import StudentDashboard from "./pages/student/Dashboard";
+import Quiz from "./pages/student/Quiz";
 import TeacherDashboard from "./pages/teacher/Dashboard";
 import AdminDashboard from "./pages/admin/Dashboard";
 import NotFound from "./pages/NotFound";
@@ -29,6 +30,7 @@ const App = () => (
             
             {/* Student Routes */}
             <Route path="/student/dashboard" element={<StudentDashboard />} />
+            <Route path="/quiz/:id" element={<Quiz />} />
             
             {/* Teacher Routes */}
             <Route path="/teacher/dashboard" element={<TeacherDashboard />} />
