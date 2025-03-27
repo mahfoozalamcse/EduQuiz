@@ -12,6 +12,7 @@ import StudentDashboard from "./pages/student/Dashboard";
 import Quiz from "./pages/student/Quiz";
 import Performance from "./pages/student/Performance";
 import Achievements from "./pages/student/Achievements";
+import Settings from "./pages/student/Settings";
 import TeacherDashboard from "./pages/teacher/Dashboard";
 import AdminDashboard from "./pages/admin/Dashboard";
 import NotFound from "./pages/NotFound";
@@ -35,6 +36,7 @@ const App = () => (
             <Route path="/student/quizzes" element={<StudentDashboard />} />
             <Route path="/student/performance" element={<Performance />} />
             <Route path="/student/achievements" element={<Achievements />} />
+            <Route path="/student/settings" element={<Settings />} />
             <Route path="/quiz/:id" element={<Quiz />} />
             
             {/* Teacher Routes */}
