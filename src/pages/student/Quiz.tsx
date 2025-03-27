@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { DashboardLayout } from '@/components/layout/DashboardLayout';
@@ -9,7 +8,7 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
 import { toast } from 'sonner';
 import { Clock, AlertCircle } from 'lucide-react';
-import { quizzes, Quiz as QuizType, Question } from '@/data/quizData';
+import { quizzes, Quiz as QuizType, Question, addQuizAttempt } from '@/data/quizData';
 import { useAuth } from '@/context/AuthContext';
 
 const Quiz = () => {
@@ -85,7 +84,7 @@ const Quiz = () => {
   };
 
   const submitQuiz = () => {
-    if (!quiz) return;
+    if (!quiz || !user) return;
     
     // Calculate score
     let correctAnswers = 0;
@@ -103,35 +102,23 @@ const Quiz = () => {
     setIsQuizCompleted(true);
     setQuizStarted(false);
     
-    // Check if score is above threshold for attendance
-    const attendanceMarked = calculatedScore >= 60;
-    
-    // Save quiz attempt
-    const timestamp = new Date().toISOString();
-    const quizAttempt = {
-      id: `attempt-${timestamp}`,
-      userId: user?.id || '',
+    // Save quiz attempt using the addQuizAttempt function from quizData.ts
+    const newAttempt = addQuizAttempt({
       quizId: quiz.id,
+      userId: user.id,
       score: calculatedScore,
       timeTaken: (quiz.duration * 60) - timeLeft,
-      date: timestamp,
-      attendanceMarked,
+      date: new Date().toISOString(),
       completed: true,
       answers: Object.values(selectedOptions)
-    };
+    });
     
-    // In a real app, we would save this to a database
-    // For now, we'll just show a toast notification
-    if (attendanceMarked) {
+    // Show appropriate toast notification based on attendance being marked
+    if (newAttempt.attendanceMarked) {
       toast.success("Quiz completed! Attendance has been marked.");
     } else {
       toast.info("Quiz completed. Score was below the attendance threshold.");
     }
-    
-    // Store in localStorage for demo purposes
-    const attemptHistory = JSON.parse(localStorage.getItem('quiz_attempts') || '[]');
-    attemptHistory.push(quizAttempt);
-    localStorage.setItem('quiz_attempts', JSON.stringify(attemptHistory));
   };
 
   // Format time remaining

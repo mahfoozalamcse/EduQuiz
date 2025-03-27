@@ -30,6 +30,7 @@ const App = () => (
             
             {/* Student Routes */}
             <Route path="/student/dashboard" element={<StudentDashboard />} />
+            <Route path="/student/quizzes" element={<StudentDashboard />} /> {/* Redirect old quiz link to dashboard */}
             <Route path="/quiz/:id" element={<Quiz />} />
             
             {/* Teacher Routes */}
