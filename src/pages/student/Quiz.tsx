@@ -9,16 +9,8 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
 import { toast } from 'sonner';
 import { Clock, AlertCircle } from 'lucide-react';
-import { quizzes } from '@/data/quizData';
+import { quizzes, Quiz as QuizType, Question } from '@/data/quizData';
 import { useAuth } from '@/context/AuthContext';
-
-// Define the Question interface
-interface Question {
-  id: string;
-  text: string;
-  options: { id: string; text: string }[];
-  correctOptionId: string;
-}
 
 const Quiz = () => {
   const { id } = useParams<{ id: string }>();
@@ -30,7 +22,7 @@ const Quiz = () => {
   
   // State for the quiz
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [selectedOptions, setSelectedOptions] = useState<Record<string, string>>({});
+  const [selectedOptions, setSelectedOptions] = useState<Record<string, number>>({});
   const [timeLeft, setTimeLeft] = useState(0);
   const [isQuizCompleted, setIsQuizCompleted] = useState(false);
   const [quizStarted, setQuizStarted] = useState(false);
@@ -73,10 +65,10 @@ const Quiz = () => {
     toast.info("Quiz started! Good luck!");
   };
 
-  const handleOptionSelect = (questionId: string, optionId: string) => {
+  const handleOptionSelect = (questionId: string, optionIndex: number) => {
     setSelectedOptions(prev => ({
       ...prev,
-      [questionId]: optionId
+      [questionId]: optionIndex
     }));
   };
 
@@ -99,7 +91,7 @@ const Quiz = () => {
     let correctAnswers = 0;
     
     quiz.questions.forEach(question => {
-      if (selectedOptions[question.id] === question.correctOptionId) {
+      if (selectedOptions[question.id] === question.correctAnswer) {
         correctAnswers++;
       }
     });
@@ -123,7 +115,9 @@ const Quiz = () => {
       score: calculatedScore,
       timeTaken: (quiz.duration * 60) - timeLeft,
       date: timestamp,
-      attendanceMarked
+      attendanceMarked,
+      completed: true,
+      answers: Object.values(selectedOptions)
     };
     
     // In a real app, we would save this to a database
@@ -245,15 +239,15 @@ const Quiz = () => {
             <CardContent className="pt-3">
               <h2 className="text-xl font-medium mb-6">{currentQuestion.text}</h2>
               <RadioGroup
-                value={selectedOptions[currentQuestion.id] || ''}
-                onValueChange={(value) => handleOptionSelect(currentQuestion.id, value)}
+                value={selectedOptions[currentQuestion.id]?.toString() || ''}
+                onValueChange={(value) => handleOptionSelect(currentQuestion.id, parseInt(value))}
                 className="space-y-4"
               >
-                {currentQuestion.options.map((option) => (
-                  <div key={option.id} className="flex items-center space-x-2">
-                    <RadioGroupItem value={option.id} id={option.id} />
-                    <Label htmlFor={option.id} className="flex-grow cursor-pointer">
-                      {option.text}
+                {currentQuestion.options.map((option, index) => (
+                  <div key={index} className="flex items-center space-x-2">
+                    <RadioGroupItem value={index.toString()} id={`option-${index}`} />
+                    <Label htmlFor={`option-${index}`} className="flex-grow cursor-pointer">
+                      {option}
                     </Label>
                   </div>
                 ))}
