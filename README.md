@@ -45,7 +45,7 @@ Follow these steps:
 git clone https://github.com/prakashvk2003/eduquizzler-hub.git
 
 # Step 2: Navigate to the project directory.
-cd eduquizzler-hub
+cd EduQuiz
 
 # Step 3: Install the necessary dependencies.
 npm update
