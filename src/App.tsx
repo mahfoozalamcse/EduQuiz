@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import StudentDashboard from "./pages/student/Dashboard";
 import Quiz from "./pages/student/Quiz";
+import Performance from "./pages/student/Performance";
 import TeacherDashboard from "./pages/teacher/Dashboard";
 import AdminDashboard from "./pages/admin/Dashboard";
 import NotFound from "./pages/NotFound";
@@ -30,7 +31,8 @@ const App = () => (
             
             {/* Student Routes */}
             <Route path="/student/dashboard" element={<StudentDashboard />} />
-            <Route path="/student/quizzes" element={<StudentDashboard />} /> {/* Redirect old quiz link to dashboard */}
+            <Route path="/student/quizzes" element={<StudentDashboard />} />
+            <Route path="/student/performance" element={<Performance />} />
             <Route path="/quiz/:id" element={<Quiz />} />
             
             {/* Teacher Routes */}
