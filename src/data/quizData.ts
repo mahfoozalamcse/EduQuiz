@@ -898,6 +898,196 @@ export const quizzes: Quiz[] = [
     ]
   },
 
+  {
+    id: '5',
+    title: 'SQL: Queries, Joins, and Constraints',
+    subject: 'SQL',
+    description: 'Evaluate your SQL skills across queries, joins, constraints, indexing, and optimization with this medium-level quiz.',
+    duration: 45,
+    difficulty: 'medium',
+    questions: [
+      {
+        id: '5-1',
+        text: 'Which SQL statement is used to extract data from a database?',
+        options: ['GET', 'EXTRACT', 'SELECT', 'OPEN'],
+        correctAnswer: 2
+      },
+      {
+        id: '5-2',
+        text: 'Which clause is used to filter the result set based on a condition?',
+        options: ['ORDER BY', 'HAVING', 'GROUP BY', 'WHERE'],
+        correctAnswer: 3
+      },
+      {
+        id: '5-3',
+        text: 'Which type of JOIN returns all records when there is a match in either left or right table?',
+        options: ['INNER JOIN', 'LEFT JOIN', 'RIGHT JOIN', 'FULL OUTER JOIN'],
+        correctAnswer: 3
+      },
+      {
+        id: '5-4',
+        text: 'What does the COUNT(*) function do in SQL?',
+        options: ['Counts only numeric values', 'Counts only NULL values', 'Counts all rows', 'Counts only unique rows'],
+        correctAnswer: 2
+      },
+      {
+        id: '5-5',
+        text: 'Which constraint ensures that a column cannot have NULL values?',
+        options: ['UNIQUE', 'CHECK', 'NOT NULL', 'DEFAULT'],
+        correctAnswer: 2
+      },
+      {
+        id: '5-6',
+        text: 'Which SQL keyword is used to prevent duplicate values in a query result?',
+        options: ['DISTINCT', 'UNIQUE', 'NO DUPLICATE', 'FILTER'],
+        correctAnswer: 0
+      },
+      {
+        id: '5-7',
+        text: 'Which of the following is a valid SQL aggregate function?',
+        options: ['MERGE()', 'COMBINE()', 'COUNT()', 'TRANSFORM()'],
+        correctAnswer: 2
+      },
+      {
+        id: '5-8',
+        text: 'Which clause groups rows that have the same values into summary rows?',
+        options: ['GROUP BY', 'ORDER BY', 'HAVING', 'UNION'],
+        correctAnswer: 0
+      },
+      {
+        id: '5-9',
+        text: 'Which SQL command is used to remove rows from a table?',
+        options: ['REMOVE', 'DROP', 'DELETE', 'ERASE'],
+        correctAnswer: 2
+      },
+      {
+        id: '5-10',
+        text: 'Which SQL statement is used to update data in a table?',
+        options: ['MODIFY', 'CHANGE', 'UPDATE', 'REPLACE'],
+        correctAnswer: 2
+      },
+      {
+        id: '5-11',
+        text: 'What does a PRIMARY KEY constraint do?',
+        options: ['Allows NULLs', 'Allows duplicate values', 'Uniquely identifies each row', 'Allows multiple rows with the same value'],
+        correctAnswer: 2
+      },
+      {
+        id: '5-12',
+        text: 'Which function is used to get the current date in SQL?',
+        options: ['GETDATE()', 'CURRDATE()', 'NOW()', 'TODAY()'],
+        correctAnswer: 0
+      },
+      {
+        id: '5-13',
+        text: 'Which operator is used to search for a pattern in SQL?',
+        options: ['=', 'LIKE', 'MATCH', 'SEARCH'],
+        correctAnswer: 1
+      },
+      {
+        id: '5-14',
+        text: 'What will the following query return: SELECT COUNT(DISTINCT department) FROM employees?',
+        options: ['Number of employees', 'Number of departments', 'All department names', 'Average department size'],
+        correctAnswer: 1
+      },
+      {
+        id: '5-15',
+        text: 'What is the result of an INNER JOIN if there is no match?',
+        options: ['NULL rows', 'All rows from both tables', 'No rows returned', 'Only unmatched rows'],
+        correctAnswer: 2
+      },
+      {
+        id: '5-16',
+        text: 'Which keyword is used to sort results in SQL?',
+        options: ['SORT BY', 'GROUP BY', 'ORDER BY', 'ARRANGE BY'],
+        correctAnswer: 2
+      },
+      {
+        id: '5-17',
+        text: 'Which statement is used to create a new table?',
+        options: ['MAKE TABLE', 'CREATE TABLE', 'ADD TABLE', 'NEW TABLE'],
+        correctAnswer: 1
+      },
+      {
+        id: '5-18',
+        text: 'Which keyword is used with the UPDATE statement to specify the row to update?',
+        options: ['WHERE', 'HAVING', 'LIMIT', 'SET'],
+        correctAnswer: 0
+      },
+      {
+        id: '5-19',
+        text: 'Which keyword combines the result of two queries and removes duplicates?',
+        options: ['COMBINE', 'JOIN', 'UNION', 'MERGE'],
+        correctAnswer: 2
+      },
+      {
+        id: '5-20',
+        text: 'Which SQL command removes a table from a database?',
+        options: ['REMOVE TABLE', 'DELETE TABLE', 'DROP TABLE', 'TRUNCATE TABLE'],
+        correctAnswer: 2
+      },
+      {
+        id: '5-21',
+        text: 'Which command is used to remove all rows from a table but keep the structure?',
+        options: ['DELETE', 'TRUNCATE', 'DROP', 'REMOVE'],
+        correctAnswer: 1
+      },
+      {
+        id: '5-22',
+        text: 'What will this query return? SELECT AVG(salary) FROM employees;',
+        options: ['Total salary', 'Minimum salary', 'Maximum salary', 'Average salary'],
+        correctAnswer: 3
+      },
+      {
+        id: '5-23',
+        text: 'Which command is used to add a new column to an existing table?',
+        options: ['MODIFY TABLE', 'ALTER TABLE ADD', 'CHANGE TABLE', 'APPEND COLUMN'],
+        correctAnswer: 1
+      },
+      {
+        id: '5-24',
+        text: 'Which clause is used with GROUP BY to filter aggregate results?',
+        options: ['HAVING', 'WHERE', 'ORDER BY', 'LIMIT'],
+        correctAnswer: 0
+      },
+      {
+        id: '5-25',
+        text: 'Which JOIN returns only the rows from the left table that have matching rows in the right table?',
+        options: ['INNER JOIN', 'LEFT JOIN', 'RIGHT JOIN', 'CROSS JOIN'],
+        correctAnswer: 1
+      },
+      {
+        id: '5-26',
+        text: 'What is a FOREIGN KEY used for?',
+        options: ['To make a column unique', 'To reference a column in another table', 'To delete rows', 'To join multiple tables'],
+        correctAnswer: 1
+      },
+      {
+        id: '5-27',
+        text: 'Which function returns the number of characters in a string?',
+        options: ['COUNT()', 'LENGTH()', 'LEN()', 'STRLEN()'],
+        correctAnswer: 1
+      },
+      {
+        id: '5-28',
+        text: 'Which clause limits the number of rows returned in a query?',
+        options: ['LIMIT', 'TOP', 'ROWNUM', 'All of the above depending on DBMS'],
+        correctAnswer: 3
+      },
+      {
+        id: '5-29',
+        text: 'Which of the following is not a valid SQL data type?',
+        options: ['VARCHAR', 'INTEGER', 'FLOAT', 'WORD'],
+        correctAnswer: 3
+      },
+      {
+        id: '5-30',
+        text: 'What does the BETWEEN operator do?',
+        options: ['Filters rows with NULL values', 'Matches exact strings', 'Checks if a value is within a range', 'Limits the number of columns returned'],
+        correctAnswer: 2
+      }
+    ]
+  },
   
   
   
