@@ -1281,6 +1281,199 @@ export const quizzes: Quiz[] = [
     ]
   },
   
+  {
+    id: '7',
+    title: 'Low Level Design: OOP, Design Patterns & Class Design',
+    subject: 'Low Level Design',
+    description: 'Test your knowledge of Low Level Design concepts including class design, OOP principles, design patterns, and system components.',
+    duration: 45,
+    difficulty: 'hard',
+    questions: [
+      {
+        id: '7-1',
+        text: 'What is the primary goal of Low Level Design?',
+        options: ['Define UI mockups', 'Determine system requirements', 'Design system classes and their interactions', 'Setup cloud infrastructure'],
+        correctAnswer: 2
+      },
+      {
+        id: '7-2',
+        text: 'Which principle focuses on a class having only one reason to change?',
+        options: ['Open/Closed Principle', 'Single Responsibility Principle', 'Liskov Substitution Principle', 'Dependency Inversion Principle'],
+        correctAnswer: 1
+      },
+      {
+        id: '7-3',
+        text: 'What is the output of applying the Factory Pattern?',
+        options: ['Object creation logic', 'Class hierarchy optimization', 'UI abstraction', 'Thread safety'],
+        correctAnswer: 0
+      },
+      {
+        id: '7-4',
+        text: 'Which of these is NOT a creational design pattern?',
+        options: ['Singleton', 'Factory', 'Builder', 'Observer'],
+        correctAnswer: 3
+      },
+      {
+        id: '7-5',
+        text: 'What does composition in OOP refer to?',
+        options: ['Inheriting from multiple base classes', 'A class containing objects of other classes', 'Using interfaces', 'Overloading operators'],
+        correctAnswer: 1
+      },
+      {
+        id: '7-6',
+        text: 'Which design principle encourages dependency on abstractions rather than concretions?',
+        options: ['Interface Segregation', 'Open/Closed Principle', 'Dependency Inversion', 'Liskov Substitution'],
+        correctAnswer: 2
+      },
+      {
+        id: '7-7',
+        text: 'Which pattern is used to restrict class instantiation to a single object?',
+        options: ['Factory', 'Observer', 'Singleton', 'Strategy'],
+        correctAnswer: 2
+      },
+      {
+        id: '7-8',
+        text: 'What is UML used for in LLD?',
+        options: ['Writing SQL scripts', 'Modeling class relationships and flows', 'Styling frontend', 'Configuring CI/CD'],
+        correctAnswer: 1
+      },
+      {
+        id: '7-9',
+        text: 'Which class diagram element represents a "has-a" relationship?',
+        options: ['Inheritance', 'Association', 'Composition', 'Aggregation'],
+        correctAnswer: 3
+      },
+      {
+        id: '7-10',
+        text: 'What is true about interfaces in class design?',
+        options: ['They can contain instance variables', 'They help in multiple inheritance', 'They must be abstract classes', 'They can be instantiated'],
+        correctAnswer: 1
+      },
+      {
+        id: '7-11',
+        text: 'Which design pattern enables dynamic behavior change at runtime?',
+        options: ['Decorator', 'Builder', 'Factory', 'Singleton'],
+        correctAnswer: 0
+      },
+      {
+        id: '7-12',
+        text: 'Which of the following violates encapsulation?',
+        options: ['Keeping variables private', 'Exposing all fields publicly', 'Using getter and setter methods', 'Designing interfaces'],
+        correctAnswer: 1
+      },
+      {
+        id: '7-13',
+        text: 'Which OOP concept promotes code reuse through class hierarchy?',
+        options: ['Abstraction', 'Encapsulation', 'Inheritance', 'Polymorphism'],
+        correctAnswer: 2
+      },
+      {
+        id: '7-14',
+        text: 'What is the Strategy pattern used for?',
+        options: ['Creating single instance', 'Changing algorithm behavior at runtime', 'Broadcasting events', 'Building objects step-by-step'],
+        correctAnswer: 1
+      },
+      {
+        id: '7-15',
+        text: 'Which is an advantage of interface-based design?',
+        options: ['Tighter coupling', 'Less abstraction', 'Better testability', 'Slower performance'],
+        correctAnswer: 2
+      },
+      {
+        id: '7-16',
+        text: 'Which pattern lets objects observe other objects and receive updates?',
+        options: ['Builder', 'Proxy', 'Observer', 'Adapter'],
+        correctAnswer: 2
+      },
+      {
+        id: '7-17',
+        text: 'Which of the following is true about polymorphism?',
+        options: ['It allows overloading constructors only', 'It allows objects to take many forms', 'It prevents code reuse', 'It removes inheritance'],
+        correctAnswer: 1
+      },
+      {
+        id: '7-18',
+        text: 'What does the term "cohesion" refer to in OOP?',
+        options: ['Degree of interdependence between modules', 'Quality of a class performing a single task', 'Number of base classes', 'Number of interfaces used'],
+        correctAnswer: 1
+      },
+      {
+        id: '7-19',
+        text: 'Which diagram is typically used to model object interactions over time?',
+        options: ['Class diagram', 'Use case diagram', 'Sequence diagram', 'Component diagram'],
+        correctAnswer: 2
+      },
+      {
+        id: '7-20',
+        text: 'Which of these is not a part of SOLID principles?',
+        options: ['Open/Closed Principle', 'YAGNI Principle', 'Single Responsibility Principle', 'Interface Segregation Principle'],
+        correctAnswer: 1
+      },
+      {
+        id: '7-21',
+        text: 'In LLD, what is meant by "tight coupling"?',
+        options: ['Classes know too much about each other', 'Classes communicate through interfaces', 'Loose and flexible interaction', 'Design using composition'],
+        correctAnswer: 0
+      },
+      {
+        id: '7-22',
+        text: 'What type of class often violates SRP (Single Responsibility Principle)?',
+        options: ['Utility class', 'Monolithic class', 'Abstract class', 'Interface'],
+        correctAnswer: 1
+      },
+      {
+        id: '7-23',
+        text: 'Which pattern is used to decouple sender and receiver objects?',
+        options: ['Builder', 'Mediator', 'Command', 'Adapter'],
+        correctAnswer: 2
+      },
+      {
+        id: '7-24',
+        text: 'Which principle promotes many client-specific interfaces over one general-purpose interface?',
+        options: ['Liskov Substitution', 'Open/Closed', 'Interface Segregation', 'Dependency Inversion'],
+        correctAnswer: 2
+      },
+      {
+        id: '7-25',
+        text: 'Which of these increases testability in class design?',
+        options: ['Tight coupling', 'Static methods', 'Dependency injection', 'Deep inheritance'],
+        correctAnswer: 2
+      },
+      {
+        id: '7-26',
+        text: 'Which term best describes designing systems that can handle future growth?',
+        options: ['Abstraction', 'Flexibility', 'Extensibility', 'Inheritance'],
+        correctAnswer: 2
+      },
+      {
+        id: '7-27',
+        text: 'In class design, what is a "god object"?',
+        options: ['An abstract class', 'A highly focused class', 'A class that knows too much and does too much', 'A reusable utility class'],
+        correctAnswer: 2
+      },
+      {
+        id: '7-28',
+        text: 'Which of the following is not an advantage of using design patterns?',
+        options: ['Promotes code reuse', 'Speeds up debugging', 'Improves communication between developers', 'Provides proven solutions'],
+        correctAnswer: 1
+      },
+      {
+        id: '7-29',
+        text: 'Which pattern adds responsibilities to objects without modifying their class?',
+        options: ['Strategy', 'Proxy', 'Decorator', 'Bridge'],
+        correctAnswer: 2
+      },
+      {
+        id: '7-30',
+        text: 'Which of the following diagrams shows the physical deployment of software components?',
+        options: ['Deployment diagram', 'Class diagram', 'Sequence diagram', 'Package diagram'],
+        correctAnswer: 0
+      }
+    ]
+  },
+
+  
+  
   
   
   
