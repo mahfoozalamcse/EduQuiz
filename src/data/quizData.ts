@@ -36,7 +36,7 @@ export const quizzes: Quiz[] = [
     title: 'Computer Networks Fundamentals',
     subject: 'Computer Networks',
     description: 'Test your knowledge of computer network fundamentals including OSI model, TCP/IP, and basic network topologies.',
-    duration: 15,
+    duration: 45,
     difficulty: 'easy',
     questions: [
       {
@@ -68,9 +68,161 @@ export const quizzes: Quiz[] = [
         text: 'Which protocol is connection-oriented?',
         options: ['UDP', 'TCP', 'ICMP', 'IP'],
         correctAnswer: 1
+      },
+      {
+        id: '1-6',
+        text: 'Which device operates at the Data Link layer of the OSI model?',
+        options: ['Router', 'Switch', 'Hub', 'Modem'],
+        correctAnswer: 1
+      },
+      {
+        id: '1-7',
+        text: 'Which protocol assigns IP addresses automatically to devices?',
+        options: ['DNS', 'HTTP', 'DHCP', 'FTP'],
+        correctAnswer: 2
+      },
+      {
+        id: '1-8',
+        text: 'Which of these is a private IP address?',
+        options: ['192.168.1.1', '8.8.8.8', '172.32.0.1', '100.100.100.100'],
+        correctAnswer: 0
+      },
+      {
+        id: '1-9',
+        text: 'Which layer handles error detection and correction?',
+        options: ['Network Layer', 'Transport Layer', 'Data Link Layer', 'Application Layer'],
+        correctAnswer: 2
+      },
+      {
+        id: '1-10',
+        text: 'What is the full form of HTTP?',
+        options: ['HyperText Transfer Protocol', 'HighText Transfer Protocol', 'HyperTerminal Transfer Protocol', 'None of the above'],
+        correctAnswer: 0
+      },
+      {
+        id: '1-11',
+        text: 'Which of the following uses a three-way handshake?',
+        options: ['TCP', 'UDP', 'ICMP', 'IP'],
+        correctAnswer: 0
+      },
+      {
+        id: '1-12',
+        text: 'What is the purpose of a subnet mask?',
+        options: ['To divide the network into sub-networks', 'To hide IP addresses', 'To detect errors', 'To route packets'],
+        correctAnswer: 0
+      },
+      {
+        id: '1-13',
+        text: 'Which command can be used to test network connectivity?',
+        options: ['ipconfig', 'ping', 'mkdir', 'nslookup'],
+        correctAnswer: 1
+      },
+      {
+        id: '1-14',
+        text: 'Which of the following is NOT a valid class of IP addresses?',
+        options: ['Class A', 'Class B', 'Class D', 'Class F'],
+        correctAnswer: 3
+      },
+      {
+        id: '1-15',
+        text: 'Which protocol is used for secure communication over the Internet?',
+        options: ['HTTP', 'SSL', 'FTP', 'TCP'],
+        correctAnswer: 1
+      },
+      {
+        id: '1-16',
+        text: 'Which port number is used by HTTP?',
+        options: ['80', '443', '21', '25'],
+        correctAnswer: 0
+      },
+      {
+        id: '1-17',
+        text: 'Which device is used to break up broadcast domains?',
+        options: ['Router', 'Switch', 'Hub', 'Repeater'],
+        correctAnswer: 0
+      },
+      {
+        id: '1-18',
+        text: 'Which layer of OSI is responsible for encryption and compression?',
+        options: ['Transport', 'Session', 'Presentation', 'Application'],
+        correctAnswer: 2
+      },
+      {
+        id: '1-19',
+        text: 'What is the default subnet mask for a Class C IP address?',
+        options: ['255.0.0.0', '255.255.0.0', '255.255.255.0', '255.255.255.255'],
+        correctAnswer: 2
+      },
+      {
+        id: '1-20',
+        text: 'What is the purpose of DNS?',
+        options: ['Assign IP addresses', 'Resolve domain names to IP addresses', 'Secure connections', 'Control packet routing'],
+        correctAnswer: 1
+      },
+      {
+        id: '1-21',
+        text: 'Which layer ensures reliable data transfer?',
+        options: ['Network', 'Transport', 'Session', 'Presentation'],
+        correctAnswer: 1
+      },
+      {
+        id: '1-22',
+        text: 'Which protocol does ping use?',
+        options: ['TCP', 'UDP', 'ICMP', 'HTTP'],
+        correctAnswer: 2
+      },
+      {
+        id: '1-23',
+        text: 'Which topology has a single point of failure?',
+        options: ['Star', 'Ring', 'Mesh', 'Tree'],
+        correctAnswer: 0
+      },
+      {
+        id: '1-24',
+        text: 'What is the size of an IPv4 address?',
+        options: ['32 bits', '64 bits', '128 bits', '16 bits'],
+        correctAnswer: 0
+      },
+      {
+        id: '1-25',
+        text: 'Which device operates at both Layer 2 and Layer 3 of the OSI model?',
+        options: ['Hub', 'Router', 'Switch', 'Layer 3 Switch'],
+        correctAnswer: 3
+      },
+      {
+        id: '1-26',
+        text: 'What is a MAC address?',
+        options: ['An IP address', 'A physical hardware address', 'A DNS name', 'A subnet mask'],
+        correctAnswer: 1
+      },
+      {
+        id: '1-27',
+        text: 'Which OSI layer provides the interface to the user?',
+        options: ['Session', 'Presentation', 'Application', 'Transport'],
+        correctAnswer: 2
+      },
+      {
+        id: '1-28',
+        text: 'Which of the following is a connectionless protocol?',
+        options: ['TCP', 'UDP', 'FTP', 'Telnet'],
+        correctAnswer: 1
+      },
+      {
+        id: '1-29',
+        text: 'Which device regenerates signals in a network?',
+        options: ['Router', 'Switch', 'Repeater', 'Bridge'],
+        correctAnswer: 2
+      },
+      {
+        id: '1-30',
+        text: 'Which network device works only in the physical layer?',
+        options: ['Router', 'Switch', 'Hub', 'Bridge'],
+        correctAnswer: 2
       }
     ]
-  },
+  }
+  
+  ,
   {
     id: '2',
     title: 'Data Structures: Arrays & Linked Lists',
