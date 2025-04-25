@@ -167,7 +167,7 @@ export const DashboardLayout: React.FC<DashboardLayoutProps> = ({
           {/* Sidebar header */}
           <div className="h-16 flex items-center justify-between px-4 border-b">
             <Link to="/" className="flex items-center space-x-2">
-              <span className="text-xl font-bold text-primary">EduQuiz</span>
+              <span className="text-xl font-bold text-primary">ClassPulse</span>
             </Link>
             <Button
               variant="ghost"
