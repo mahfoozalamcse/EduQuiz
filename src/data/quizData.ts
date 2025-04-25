@@ -1088,6 +1088,199 @@ export const quizzes: Quiz[] = [
       }
     ]
   },
+
+
+  {
+    id: '6',
+    title: 'Java: Core Concepts and OOP',
+    subject: 'Java',
+    description: 'Test your understanding of core Java programming, OOP principles, exception handling, collections, and more.',
+    duration: 45,
+    difficulty: 'medium',
+    questions: [
+      {
+        id: '6-1',
+        text: 'Which of these is not a primitive data type in Java?',
+        options: ['int', 'boolean', 'String', 'double'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-2',
+        text: 'Which keyword is used to inherit a class in Java?',
+        options: ['this', 'super', 'extends', 'implements'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-3',
+        text: 'Which method is the entry point for a Java application?',
+        options: ['start()', 'init()', 'run()', 'main()'],
+        correctAnswer: 3
+      },
+      {
+        id: '6-4',
+        text: 'What is the size of an int in Java?',
+        options: ['8 bits', '16 bits', '32 bits', '64 bits'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-5',
+        text: 'Which of these is used for exception handling in Java?',
+        options: ['try-catch', 'if-else', 'while loop', 'do-while'],
+        correctAnswer: 0
+      },
+      {
+        id: '6-6',
+        text: 'Which of the following is not a valid access modifier?',
+        options: ['private', 'protected', 'internal', 'public'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-7',
+        text: 'Which collection class allows duplicate elements?',
+        options: ['Set', 'Map', 'List', 'HashSet'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-8',
+        text: 'Which of these is not part of OOP principles?',
+        options: ['Encapsulation', 'Polymorphism', 'Compilation', 'Inheritance'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-9',
+        text: 'What does JVM stand for?',
+        options: ['Java Verified Machine', 'Java Virtual Method', 'Java Virtual Machine', 'Java Value Memory'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-10',
+        text: 'Which of these is a marker interface?',
+        options: ['Serializable', 'Runnable', 'Comparable', 'AutoCloseable'],
+        correctAnswer: 0
+      },
+      {
+        id: '6-11',
+        text: 'Which loop checks the condition after executing the loop body?',
+        options: ['for', 'while', 'do-while', 'foreach'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-12',
+        text: 'Which package contains Scanner class?',
+        options: ['java.util', 'java.io', 'java.lang', 'java.text'],
+        correctAnswer: 0
+      },
+      {
+        id: '6-13',
+        text: 'Which of the following is used to create an object?',
+        options: ['create', 'make', 'new', 'construct'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-14',
+        text: 'What is the default value of a boolean variable in Java?',
+        options: ['true', 'false', '0', 'null'],
+        correctAnswer: 1
+      },
+      {
+        id: '6-15',
+        text: 'What is method overloading?',
+        options: ['Changing return type of a method', 'Changing access modifier', 'Defining multiple methods with same name and different parameters', 'Inheriting a method from superclass'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-16',
+        text: 'Which keyword is used to prevent method overriding?',
+        options: ['final', 'static', 'private', 'protected'],
+        correctAnswer: 0
+      },
+      {
+        id: '6-17',
+        text: 'Which interface is used to sort custom objects?',
+        options: ['Comparable', 'Comparator', 'Collection', 'Map'],
+        correctAnswer: 0
+      },
+      {
+        id: '6-18',
+        text: 'Which data structure uses key-value pairs?',
+        options: ['Set', 'List', 'Map', 'Array'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-19',
+        text: 'Which class is used for multithreading?',
+        options: ['Thread', 'Runnable', 'Executor', 'All of the above'],
+        correctAnswer: 3
+      },
+      {
+        id: '6-20',
+        text: 'What is the superclass of all classes in Java?',
+        options: ['Class', 'Object', 'Main', 'Base'],
+        correctAnswer: 1
+      },
+      {
+        id: '6-21',
+        text: 'Which keyword is used to implement an interface?',
+        options: ['extends', 'inherits', 'implements', 'interface'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-22',
+        text: 'What will happen if an exception is not caught?',
+        options: ['Program continues', 'It is logged silently', 'Program crashes', 'Returns null'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-23',
+        text: 'What does the “static” keyword mean?',
+        options: ['Method can’t return anything', 'Method belongs to object', 'Method belongs to class', 'Method is private'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-24',
+        text: 'Which one of these is not a wrapper class?',
+        options: ['Integer', 'Double', 'Character', 'String'],
+        correctAnswer: 3
+      },
+      {
+        id: '6-25',
+        text: 'Which exception is thrown when a file is not found?',
+        options: ['IOException', 'FileNotFoundException', 'RuntimeException', 'NullPointerException'],
+        correctAnswer: 1
+      },
+      {
+        id: '6-26',
+        text: 'Which keyword is used to define a constant variable?',
+        options: ['const', 'static', 'final', 'immutable'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-27',
+        text: 'Which class is used to manipulate strings?',
+        options: ['StringBuffer', 'StringBuilder', 'String', 'All of the above'],
+        correctAnswer: 3
+      },
+      {
+        id: '6-28',
+        text: 'Which method is used to get the length of an array?',
+        options: ['length()', 'size()', 'getSize()', 'length'],
+        correctAnswer: 3
+      },
+      {
+        id: '6-29',
+        text: 'Which is not a type of constructor in Java?',
+        options: ['Default constructor', 'Parameterized constructor', 'Static constructor', 'Copy constructor'],
+        correctAnswer: 2
+      },
+      {
+        id: '6-30',
+        text: 'Which annotation is used to override a method?',
+        options: ['@Overload', '@Override', '@Overrule', '@Overrun'],
+        correctAnswer: 1
+      }
+    ]
+  },
+  
   
   
   
