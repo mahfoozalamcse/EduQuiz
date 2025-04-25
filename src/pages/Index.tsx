@@ -67,7 +67,7 @@ const Index = () => {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 animate-fade-in [--animation-delay:200ms]">
               Elevate your learning experience with <span className="text-primary">ClassPulse </span>
 
-              Library by <span className="text-primary">ABES Institute of technology</span> 
+              Library powerd by <span className="text-primary">ABESIT - Student</span> 
               
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mb-8 animate-fade-in [--animation-delay:400ms]">
