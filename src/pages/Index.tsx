@@ -65,7 +65,7 @@ const Index = () => {
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 animate-fade-in [--animation-delay:200ms]">
-              Elevate your learning experience with <span className="text-primary">EduQuiz</span>
+              Elevate your learning experience with <span className="text-primary">ClassPulse</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mb-8 animate-fade-in [--animation-delay:400ms]">
               An intuitive platform for computer science education with interactive quizzes, 
@@ -158,7 +158,7 @@ const Index = () => {
             <div className="mb-6 md:mb-0 md:mr-8">
               <h2 className="text-2xl font-bold mb-2">Ready to enhance your learning?</h2>
               <p className="text-muted-foreground max-w-lg">
-                Join EduQuiz today and experience a new way of learning with interactive quizzes, 
+                Join ClassPulse today and experience a new way of learning with interactive quizzes, 
                 performance tracking, and more.
               </p>
             </div>
@@ -176,7 +176,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-sm text-muted-foreground">
-              © 2023 EduQuiz. All rights reserved.
+              © 2023 ClassPulse. All rights reserved.
             </p>
           </div>
           <div className="flex space-x-6">

@@ -124,7 +124,7 @@ const Settings = () => {
               <CardHeader>
                 <CardTitle>Theme Preferences</CardTitle>
                 <CardDescription>
-                  Choose how EduQuiz looks for you
+                  Choose how ClassPulse looks for you
                 </CardDescription>
               </CardHeader>
               <CardContent>
