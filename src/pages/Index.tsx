@@ -65,7 +65,10 @@ const Index = () => {
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 animate-fade-in [--animation-delay:200ms]">
-              Elevate your learning experience with <span className="text-primary">ClassPulse</span>
+              Elevate your learning experience with <span className="text-primary">ClassPulse </span>
+
+              Library by <span className="text-primary">ABES Institute of technology</span> 
+              
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mb-8 animate-fade-in [--animation-delay:400ms]">
               An intuitive platform for computer science education with interactive quizzes, 
@@ -158,7 +161,7 @@ const Index = () => {
             <div className="mb-6 md:mb-0 md:mr-8">
               <h2 className="text-2xl font-bold mb-2">Ready to enhance your learning?</h2>
               <p className="text-muted-foreground max-w-lg">
-                Join ClassPulse today and experience a new way of learning with interactive quizzes, 
+                Join ClassPulse today powerd by ABESIT institute and experience a new way of learning with interactive quizzes, 
                 performance tracking, and more.
               </p>
             </div>

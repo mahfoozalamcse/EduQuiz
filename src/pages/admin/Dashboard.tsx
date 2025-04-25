@@ -80,7 +80,7 @@ const AdminDashboard = () => {
   
   // Mock data for system activity
   const systemActivity = [
-    { id: 1, action: 'New user registered', user: 'Jane Doe', role: 'Student', time: '2 hours ago' },
+    { id: 1, action: 'New user registered', user: 'Amino Dev', role: 'Student', time: '2 hours ago' },
     { id: 2, action: 'Quiz created', user: 'John Smith', role: 'Teacher', time: '5 hours ago' },
     { id: 3, action: 'Settings updated', user: 'Admin Demo', role: 'Admin', time: '1 day ago' },
     { id: 4, action: 'Quiz completed', user: 'Alice Johnson', role: 'Student', time: '1 day ago' },
