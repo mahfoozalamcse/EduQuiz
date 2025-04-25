@@ -83,7 +83,7 @@ const Register = () => {
           <div className="text-center mb-8 animate-fade-in [--animation-delay:200ms]">
             <h1 className="text-3xl font-bold tracking-tight">Create an account</h1>
             <p className="text-muted-foreground mt-2">
-              Sign up to get started with EduQuiz
+              Sign up to get started with ClassPulse
             </p>
           </div>
           
@@ -91,7 +91,7 @@ const Register = () => {
             <CardHeader>
               <CardTitle>Sign Up</CardTitle>
               <CardDescription>
-                Create your EduQuiz account
+                Create your ClassPulse account
               </CardDescription>
             </CardHeader>
             <CardContent>
