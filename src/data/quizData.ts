@@ -1857,6 +1857,213 @@ export const quizzes: Quiz[] = [
   },
 
 
+  {
+    id: '10',
+    title: 'Introduction to Machine Learning',
+    subject: 'Machine Learning',
+    description: 'Evaluate your understanding of machine learning concepts including supervised learning, unsupervised learning, algorithms, and evaluation metrics.',
+    duration: 45,
+    difficulty: 'medium',
+    questions: [
+      {
+        id: '10-1',
+        text: 'What is the primary goal of supervised learning?',
+        options: ['To label data', 'To predict outcomes based on input data', 'To cluster data', 'To reduce data dimensionality'],
+        correctAnswer: 1
+      },
+      {
+        id: '10-2',
+        text: 'Which of the following is an example of a classification algorithm?',
+        options: ['Linear Regression', 'K-Means', 'Decision Tree', 'PCA'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-3',
+        text: 'What metric is commonly used to evaluate classification models?',
+        options: ['Mean Absolute Error', 'Accuracy', 'R-squared', 'Mean Squared Error'],
+        correctAnswer: 1
+      },
+      {
+        id: '10-4',
+        text: 'Which algorithm is suitable for unsupervised learning?',
+        options: ['Logistic Regression', 'Random Forest', 'K-Means Clustering', 'Naive Bayes'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-5',
+        text: 'What does overfitting refer to?',
+        options: ['Model is too simple', 'Model performs well on training but poorly on test data', 'Model performs well on both sets', 'Model ignores noise in data'],
+        correctAnswer: 1
+      },
+      {
+        id: '10-6',
+        text: 'Which of the following is not a type of machine learning?',
+        options: ['Supervised', 'Unsupervised', 'Reinforcement', 'Filtered'],
+        correctAnswer: 3
+      },
+      {
+        id: '10-7',
+        text: 'Which technique is used to reduce the number of input features?',
+        options: ['Gradient Descent', 'Regularization', 'PCA', 'Normalization'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-8',
+        text: 'Which method is used to optimize the weights in neural networks?',
+        options: ['Random Walk', 'Monte Carlo', 'Gradient Descent', 'Linear Scaling'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-9',
+        text: 'Which activation function is commonly used in deep learning?',
+        options: ['Sigmoid', 'Tanh', 'ReLU', 'Linear'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-10',
+        text: 'What is the output of a regression algorithm?',
+        options: ['Categories', 'Probabilities', 'Numeric values', 'Clusters'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-11',
+        text: 'Which of the following is a regularization technique?',
+        options: ['L1 and L2', 'PCA', 'Batch Normalization', 'Backpropagation'],
+        correctAnswer: 0
+      },
+      {
+        id: '10-12',
+        text: 'What is the purpose of cross-validation?',
+        options: ['To reduce model complexity', 'To improve training time', 'To validate performance across multiple splits', 'To create ensemble models'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-13',
+        text: 'Which algorithm uses the concept of entropy?',
+        options: ['SVM', 'KNN', 'Decision Tree', 'Linear Regression'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-14',
+        text: 'What does SVM stand for?',
+        options: ['Standard Vector Machine', 'Support Vector Machine', 'Supervised Variable Model', 'Structured Value Model'],
+        correctAnswer: 1
+      },
+      {
+        id: '10-15',
+        text: 'Which method is best suited for detecting anomalies in data?',
+        options: ['Regression', 'Classification', 'Clustering', 'Anomaly Detection'],
+        correctAnswer: 3
+      },
+      {
+        id: '10-16',
+        text: 'What is the purpose of feature scaling?',
+        options: ['Reduce overfitting', 'Balance class labels', 'Normalize feature values', 'Generate new features'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-17',
+        text: 'Which of the following is an ensemble learning technique?',
+        options: ['Naive Bayes', 'Decision Tree', 'Random Forest', 'SVM'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-18',
+        text: 'Which of these is a drawback of KNN?',
+        options: ['High training time', 'Low prediction time', 'Memory efficiency', 'Not suitable for large datasets'],
+        correctAnswer: 3
+      },
+      {
+        id: '10-19',
+        text: 'Which of the following is not a kernel function used in SVM?',
+        options: ['Linear', 'Polynomial', 'RBF', 'Sigmoid', 'Euclidean'],
+        correctAnswer: 4
+      },
+      {
+        id: '10-20',
+        text: 'What is the "bias-variance tradeoff"?',
+        options: [
+          'Tradeoff between accuracy and speed',
+          'Tradeoff between data size and computation',
+          'Tradeoff between model complexity and error',
+          'Tradeoff between regularization and optimization'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: '10-21',
+        text: 'Which method splits the dataset into train and test parts?',
+        options: ['Feature Scaling', 'Cross Validation', 'Train-Test Split', 'Bootstrapping'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-22',
+        text: 'What is a confusion matrix used for?',
+        options: ['Visualize regression results', 'Track model training time', 'Evaluate classification performance', 'Reduce dimensionality'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-23',
+        text: 'Which library is widely used for machine learning in Python?',
+        options: ['NumPy', 'Matplotlib', 'Scikit-learn', 'BeautifulSoup'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-24',
+        text: 'Which algorithm can be used for both regression and classification?',
+        options: ['Linear Regression', 'Naive Bayes', 'Decision Tree', 'PCA'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-25',
+        text: 'What does the ROC curve show?',
+        options: [
+          'Relationship between precision and recall',
+          'True positive rate vs false positive rate',
+          'Confusion matrix values',
+          'Loss over epochs'
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: '10-26',
+        text: 'What is the role of the learning rate in gradient descent?',
+        options: [
+          'Decides the number of features',
+          'Controls the speed of convergence',
+          'Defines the loss function',
+          'Controls model complexity'
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: '10-27',
+        text: 'Which technique is used to prevent overfitting in deep neural networks?',
+        options: ['Feature scaling', 'Gradient clipping', 'Dropout', 'Max pooling'],
+        correctAnswer: 2
+      },
+      {
+        id: '10-28',
+        text: 'Which one is NOT a supervised learning task?',
+        options: ['Linear Regression', 'K-Means Clustering', 'SVM', 'Naive Bayes'],
+        correctAnswer: 1
+      },
+      {
+        id: '10-29',
+        text: 'Which concept measures how much the predictions deviate from actual results?',
+        options: ['Accuracy', 'Loss Function', 'F1 Score', 'Precision'],
+        correctAnswer: 1
+      },
+      {
+        id: '10-30',
+        text: 'Which method can combine weak learners into a strong learner?',
+        options: ['Regularization', 'Feature Scaling', 'Boosting', 'Dimensionality Reduction'],
+        correctAnswer: 2
+      }
+    ]
+  },
+
+  
   
 
 
