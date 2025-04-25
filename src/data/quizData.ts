@@ -1472,6 +1472,199 @@ export const quizzes: Quiz[] = [
     ]
   },
 
+  {
+    id: '8',
+    title: 'Big Data: Concepts, Tools & Ecosystem',
+    subject: 'Big Data',
+    description: 'Assess your knowledge of Big Data concepts, Hadoop, Spark, NoSQL databases, and data processing techniques.',
+    duration: 45,
+    difficulty: 'hard',
+    questions: [
+      {
+        id: '8-1',
+        text: 'Which of the following best describes Big Data?',
+        options: ['Large images and videos', 'High volume, velocity, and variety of data', 'Data stored in Excel files', 'Simple relational databases'],
+        correctAnswer: 1
+      },
+      {
+        id: '8-2',
+        text: 'Which tool is primarily used for distributed storage in Big Data systems?',
+        options: ['MySQL', 'PostgreSQL', 'HDFS', 'MongoDB'],
+        correctAnswer: 2
+      },
+      {
+        id: '8-3',
+        text: 'Which Big Data framework is known for in-memory processing?',
+        options: ['MapReduce', 'HDFS', 'Hive', 'Apache Spark'],
+        correctAnswer: 3
+      },
+      {
+        id: '8-4',
+        text: 'What does the term "schema-on-read" refer to?',
+        options: ['No schema is required', 'Schema is applied after reading data', 'Data must follow a strict schema', 'Schema changes automatically'],
+        correctAnswer: 1
+      },
+      {
+        id: '8-5',
+        text: 'Which of these is a columnar NoSQL database?',
+        options: ['MongoDB', 'HBase', 'Neo4j', 'Redis'],
+        correctAnswer: 1
+      },
+      {
+        id: '8-6',
+        text: 'In Hadoop, which node manages the metadata and namespace for HDFS?',
+        options: ['DataNode', 'TaskTracker', 'NameNode', 'ResourceManager'],
+        correctAnswer: 2
+      },
+      {
+        id: '8-7',
+        text: 'What is the main purpose of MapReduce?',
+        options: ['Storing large files', 'Managing databases', 'Processing large datasets in a distributed manner', 'Indexing data'],
+        correctAnswer: 2
+      },
+      {
+        id: '8-8',
+        text: 'Apache Kafka is primarily used for:',
+        options: ['Data storage', 'Data transformation', 'Real-time data streaming', 'Batch processing'],
+        correctAnswer: 2
+      },
+      {
+        id: '8-9',
+        text: 'Which of the following is NOT a characteristic of Big Data?',
+        options: ['Volume', 'Velocity', 'Vulnerability', 'Variety'],
+        correctAnswer: 2
+      },
+      {
+        id: '8-10',
+        text: 'Which tool in the Hadoop ecosystem is used for querying data using SQL-like syntax?',
+        options: ['Pig', 'Hive', 'Flume', 'Sqoop'],
+        correctAnswer: 1
+      },
+      {
+        id: '8-11',
+        text: 'Which component in Spark handles distributed data collections?',
+        options: ['RDD', 'HDFS', 'HiveQL', 'MapReduce'],
+        correctAnswer: 0
+      },
+      {
+        id: '8-12',
+        text: 'Which storage format is best suited for read-heavy workloads in Big Data?',
+        options: ['JSON', 'Parquet', 'CSV', 'TXT'],
+        correctAnswer: 1
+      },
+      {
+        id: '8-13',
+        text: 'What is the role of YARN in Hadoop?',
+        options: ['Data ingestion', 'Storage engine', 'Resource management and job scheduling', 'Data replication'],
+        correctAnswer: 2
+      },
+      {
+        id: '8-14',
+        text: 'Which of these is a graph database useful in Big Data systems?',
+        options: ['Cassandra', 'HBase', 'Neo4j', 'MongoDB'],
+        correctAnswer: 2
+      },
+      {
+        id: '8-15',
+        text: 'Apache Flume is used for:',
+        options: ['Real-time computation', 'Importing data into HDFS', 'ETL transformation', 'Visualizing data'],
+        correctAnswer: 1
+      },
+      {
+        id: '8-16',
+        text: 'What is the replication factor in Hadoop for?',
+        options: ['Job parallelism', 'Data security', 'Data redundancy and fault tolerance', 'Speed optimization'],
+        correctAnswer: 2
+      },
+      {
+        id: '8-17',
+        text: 'Which component of Spark supports structured query execution?',
+        options: ['RDD', 'DataFrame', 'RDDBuilder', 'DAG'],
+        correctAnswer: 1
+      },
+      {
+        id: '8-18',
+        text: 'Which company originally developed Hadoop?',
+        options: ['Google', 'Yahoo', 'Facebook', 'Amazon'],
+        correctAnswer: 1
+      },
+      {
+        id: '8-19',
+        text: 'The CAP theorem in Big Data systems stands for:',
+        options: ['Consistency, Availability, Partition Tolerance', 'Compression, Accuracy, Performance', 'Compatibility, Availability, Processing', 'Clustering, Aggregation, Partitioning'],
+        correctAnswer: 0
+      },
+      {
+        id: '8-20',
+        text: 'Which of these is NOT a valid transformation in Apache Spark?',
+        options: ['map()', 'reduceByKey()', 'filter()', 'collect()'],
+        correctAnswer: 3
+      },
+      {
+        id: '8-21',
+        text: 'Apache Pig is best suited for:',
+        options: ['Real-time analytics', 'Graph processing', 'Writing complex data flows', 'Data replication'],
+        correctAnswer: 2
+      },
+      {
+        id: '8-22',
+        text: 'Which of these is NOT a Spark component?',
+        options: ['Spark SQL', 'Spark Streaming', 'Spark RDD', 'SparkFS'],
+        correctAnswer: 3
+      },
+      {
+        id: '8-23',
+        text: 'Which NoSQL database uses a document-based model?',
+        options: ['MongoDB', 'HBase', 'Cassandra', 'Couchbase'],
+        correctAnswer: 0
+      },
+      {
+        id: '8-24',
+        text: 'In Hadoop, the process of copying data from relational databases to HDFS is done by:',
+        options: ['Sqoop', 'Flume', 'Kafka', 'SparkSQL'],
+        correctAnswer: 0
+      },
+      {
+        id: '8-25',
+        text: 'The main advantage of in-memory computing in Spark is:',
+        options: ['Faster disk access', 'More secure storage', 'Improved performance by avoiding disk I/O', 'Greater fault tolerance'],
+        correctAnswer: 2
+      },
+      {
+        id: '8-26',
+        text: 'Which Apache tool is a distributed coordination service?',
+        options: ['Zookeeper', 'Hive', 'Storm', 'Kafka'],
+        correctAnswer: 0
+      },
+      {
+        id: '8-27',
+        text: 'Which Spark component allows for machine learning workflows?',
+        options: ['Spark GraphX', 'Spark MLlib', 'Spark SQL', 'Spark Core'],
+        correctAnswer: 1
+      },
+      {
+        id: '8-28',
+        text: 'What happens when a DataNode in Hadoop fails?',
+        options: ['Job fails', 'Data is lost', 'NameNode redirects to replica DataNode', 'All processing halts'],
+        correctAnswer: 2
+      },
+      {
+        id: '8-29',
+        text: 'Which command is used in Hive to view table schema?',
+        options: ['SHOW SCHEMA', 'DESC tablename', 'SELECT SCHEMA', 'DESCRIBE DATABASE'],
+        correctAnswer: 1
+      },
+      {
+        id: '8-30',
+        text: 'What is the default block size of HDFS in Hadoop 2.x?',
+        options: ['64 MB', '128 MB', '256 MB', '512 MB'],
+        correctAnswer: 1
+      }
+    ]
+  },
+
+
+  
   
 
 
