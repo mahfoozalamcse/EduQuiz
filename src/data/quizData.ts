@@ -1665,9 +1665,203 @@ export const quizzes: Quiz[] = [
 
 
 
-  
+  {
+    id: '9',
+    title: 'Version Control with Git',
+    subject: 'Version Control',
+    description: 'Evaluate your understanding of Git, including branches, commits, merges, rebasing, and collaboration workflows.',
+    duration: 45,
+    difficulty: 'medium',
+    questions: [
+      {
+        id: '9-1',
+        text: 'Which command initializes a new Git repository?',
+        options: ['git init', 'git start', 'git new', 'git create'],
+        correctAnswer: 0
+      },
+      {
+        id: '9-2',
+        text: 'Which command shows the commit history?',
+        options: ['git status', 'git log', 'git history', 'git commits'],
+        correctAnswer: 1
+      },
+      {
+        id: '9-3',
+        text: 'What does "git status" show?',
+        options: ['Commit history', 'Remote branches', 'Current state of the working directory', 'Branches list'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-4',
+        text: 'Which command is used to stage changes for commit?',
+        options: ['git commit', 'git stage', 'git add', 'git push'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-5',
+        text: 'What command is used to upload local repo content to a remote repository?',
+        options: ['git commit', 'git clone', 'git upload', 'git push'],
+        correctAnswer: 3
+      },
+      {
+        id: '9-6',
+        text: 'Which command is used to create a new branch?',
+        options: ['git branch new_branch', 'git create branch new_branch', 'git checkout new_branch', 'git new branch'],
+        correctAnswer: 0
+      },
+      {
+        id: '9-7',
+        text: 'What does "git merge" do?',
+        options: ['Deletes a branch', 'Combines branches', 'Pushes commits', 'Pulls latest changes'],
+        correctAnswer: 1
+      },
+      {
+        id: '9-8',
+        text: 'What is a merge conflict?',
+        options: ['When two files have the same name', 'When Git fails to push', 'When changes in different branches overlap', 'When commit fails'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-9',
+        text: 'Which command downloads changes from a remote repo and integrates them?',
+        options: ['git clone', 'git fetch', 'git pull', 'git sync'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-10',
+        text: 'What command is used to see the differences between two branches?',
+        options: ['git diff', 'git branch -a', 'git status', 'git changes'],
+        correctAnswer: 0
+      },
+      {
+        id: '9-11',
+        text: 'Which command reverts a commit without removing history?',
+        options: ['git reset', 'git revert', 'git undo', 'git rebase'],
+        correctAnswer: 1
+      },
+      {
+        id: '9-12',
+        text: 'What is the default branch name in older versions of Git?',
+        options: ['main', 'default', 'master', 'root'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-13',
+        text: 'What does "git clone" do?',
+        options: ['Commits changes', 'Fetches latest code', 'Downloads a remote repository', 'Initializes a repo'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-14',
+        text: 'Which file is used to ignore files in Git?',
+        options: ['ignore.txt', 'gitignore.txt', '.gitignore', '.ignore'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-15',
+        text: 'What does "HEAD" refer to in Git?',
+        options: ['First commit', 'Last file added', 'Current snapshot of the branch', 'Remote branch'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-16',
+        text: 'Which command changes to another branch?',
+        options: ['git merge', 'git switch', 'git update', 'git move'],
+        correctAnswer: 1
+      },
+      {
+        id: '9-17',
+        text: 'What is a fast-forward merge?',
+        options: ['Merge that reverts a commit', 'Merge that rewrites history', 'Merge without divergence', 'Merge with multiple conflicts'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-18',
+        text: 'Which Git command is used to rewrite commit history?',
+        options: ['git commit --amend', 'git merge', 'git pull', 'git log --rewrite'],
+        correctAnswer: 0
+      },
+      {
+        id: '9-19',
+        text: 'Which Git area holds changes before they are committed?',
+        options: ['Remote', 'Staging area', 'Branch area', 'History'],
+        correctAnswer: 1
+      },
+      {
+        id: '9-20',
+        text: 'What is the purpose of "git fetch"?',
+        options: ['Updates local code and merges it', 'Fetches changes from remote but doesn’t merge', 'Deletes branches', 'Saves new commit'],
+        correctAnswer: 1
+      },
+      {
+        id: '9-21',
+        text: 'What does "git reset --hard" do?',
+        options: ['Deletes repo', 'Stashes changes', 'Resets to a previous commit and discards changes', 'Merges all branches'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-22',
+        text: 'Which command shows branches?',
+        options: ['git list', 'git branches', 'git branch', 'git show'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-23',
+        text: 'How do you create a tag in Git?',
+        options: ['git tag v1.0', 'git create tag', 'git new tag', 'git version'],
+        correctAnswer: 0
+      },
+      {
+        id: '9-24',
+        text: 'Which command allows you to temporarily save changes without committing?',
+        options: ['git freeze', 'git cache', 'git stash', 'git pause'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-25',
+        text: 'Which of the following is true about Git rebase?',
+        options: ['Used for merging branches', 'Rewrites commit history to create a linear path', 'Pushes all commits to origin', 'Stashes local changes'],
+        correctAnswer: 1
+      },
+      {
+        id: '9-26',
+        text: 'Which command is used to delete a local branch?',
+        options: ['git remove branch', 'git delete branch', 'git branch -d branch_name', 'git clear branch'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-27',
+        text: 'How do you rename a branch in Git?',
+        options: ['git rename', 'git branch -m old new', 'git move branch', 'git switch name'],
+        correctAnswer: 1
+      },
+      {
+        id: '9-28',
+        text: 'Which Git command allows you to combine multiple commits into one?',
+        options: ['git squash', 'git merge', 'git rebase -i', 'git pack'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-29',
+        text: 'Which command shows the remote repositories?',
+        options: ['git show remote', 'git list remote', 'git remote -v', 'git remotes'],
+        correctAnswer: 2
+      },
+      {
+        id: '9-30',
+        text: 'Which command shows changes between working directory and the index?',
+        options: ['git status', 'git log', 'git diff', 'git commit --dry-run'],
+        correctAnswer: 2
+      }
+    ]
+  },
+
+
 
   
+  
+
+
 
 
   
