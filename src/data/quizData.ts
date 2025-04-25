@@ -2063,10 +2063,6 @@ export const quizzes: Quiz[] = [
     ]
   },
 
-  
-  
-
-
 
 
   
