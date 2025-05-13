@@ -1,6 +1,6 @@
 # Online Quiz and Attendance System 
 
-This project is a comprehensive online quiz and attendance system designed to enhance learning and streamline administrative tasks for educational institutions. It features distinct dashboards for students, teachers, and administrators, providing tailored functionalities for each user group. 
+This project is a comprehensive online quiz and attendance system designed to enhance learning and streamline administrative tasks for educational institutions. It features distinct dashboards for students, teachers, and administrators, providing tailored functionalities for each user group.  
 
 ## Project Features:
 
