@@ -4,7 +4,7 @@ import { Link, useLocation, Navigate } from 'react-router-dom';
 import { useAuth, User, UserRole } from '@/context/AuthContext';
 import { Button } from '@/components/ui/button';
 import {
-  LayoutDashboard,
+  LayoutDashboard, 
   BookOpen,
   Award,
   Settings,
