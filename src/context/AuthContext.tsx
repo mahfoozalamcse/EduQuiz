@@ -4,7 +4,7 @@ import { toast } from "sonner";
 
 // Define user roles
 export type UserRole = 'student' | 'teacher' | 'admin';
-
+ 
 // Define user interface
 export interface User {
   id: string;
